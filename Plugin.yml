@@ -1,0 +1,13 @@
+  main: me.meggot.QuickBuild.QuickBuild
+  name: QuickBuild
+  version: 1.0
+  author: Meggot
+  database: true
+  description: A plugin to manage quickbuild duels.
+  commands:
+    challenge:
+      description: This challenges a opponent to a quickbuild duel.
+      usage: /challenge [playerName] [challengeName] [typeOfBuild]
+    start:
+      description: This starts the duel.
+      usage: /start [duelName]
